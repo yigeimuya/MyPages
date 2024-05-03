@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-//  base: '/MyPages/',
+  // 用github pages需要添加base目录，目录名称和github存储库一致
+  // base: '/MyPages/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
