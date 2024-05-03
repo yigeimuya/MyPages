@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/MyPages/',
+//  base: '/MyPages/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
 
     logo: '/logo.png',
-    
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
